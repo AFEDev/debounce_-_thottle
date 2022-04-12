@@ -1,0 +1,20 @@
+{
+    "compilerOptions" : {
+        "target" : "ES2016",
+        "removeComments": true,
+        "outDir": "../dist",
+        "watch": true,
+        //"outFile": "main.js"
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        //"strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        //"isolatedModules": true,
+    },
+    //"include": ["src", "dist"]
+}
+

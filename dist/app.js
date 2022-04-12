@@ -10,7 +10,7 @@ const debounce = (fn, ms) => {
     };
 };
 let onChange = function (e) {
-    console.log(e.value);
+    console.log(e.target.value);
 };
 onChange = debounce(onChange, 1000);
 document.getElementById("search").addEventListener("keyup", onChange);
